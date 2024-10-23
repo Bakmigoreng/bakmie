@@ -1,0 +1,76 @@
+*{
+    font-family: Verdana;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation{
+    justify-content: center;
+    background-color: #e964a2;
+    border-radius: 4px;
+    width: 100%;
+    height: 70px;
+    color: rgb(255, 255, 255);
+}
+.navigation a:hover {
+    color: pink;
+}
+
+.logo{
+    float: left;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.navigation a{
+    width: 100%;
+    height: 70px;
+}
+
+.menu{
+    margin-left: 650px;
+    padding-top: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: beige;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; /* Memusatkan gambar secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal jika diperlukan */
+    flex-direction: column; /* Agar teks dan gambar ditumpuk secara vertikal */
+    text-align: center; /* Agar teks berada di tengah */
+    padding: 20px;
+}
+
+.gallery img {
+    width: 600px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px; /* Membuat sudut gambar membulat */
+    padding: 15px; /* Memberi padding di dalam gambar */
+    background-color: white; /* Menambahkan latar belakang padding */
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+h2{
+    text-align: center;
+    
+}
